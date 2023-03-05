@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-8tpm
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-sample-8tpm
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:534fcd4c1b83d55064594d08c245ce7e05f022340bc53d8385456e6408e7e0d8
         name: my-nodejs
         ports:
         - containerPort: 3001
